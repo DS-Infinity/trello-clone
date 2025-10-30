@@ -15,3 +15,8 @@ function showImage(id) {
     }
   }
 }
+
+function toggleMenu() {
+  const burger = document.getElementsByClassName('burger')[0];
+  burger.classList.toggle('open');
+}
