@@ -475,6 +475,7 @@ main {
     margin-bottom: 24px;
     flex-direction: row;
     align-items: center;
+    gap: 12px;
     justify-content: center;
   }
 
@@ -513,5 +514,15 @@ main {
 
   .nav-right a {
     display: none;
+  }
+
+  .carousel-box {
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+
+  .carousel-image-container {
+    /* justify-content: center; */
+    width: 100%;
   }
 }
