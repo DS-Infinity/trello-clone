@@ -190,16 +190,16 @@ main {
 
 .lander-signup input {
   margin-top: 32px;
-  padding: 12px 80px;
+  padding: 12px 100px;
   padding-left: 10px;
   font-size: 18px;
   /* width: 50%; */
   border-radius: 4px;
   font-size: 16px;
   /* background-color: #0065ff; */
-  color: #ffffff;
+  /* color: #ffffff; */
   border: 1px solid rgb(223, 225, 230);
-  cursor: pointer;
+  /* cursor: pointer; */
   font-family: 'Charlie Display', sans-serif;
 }
 
@@ -219,6 +219,55 @@ main {
 
 .lander-signup button:hover {
   background-color: #0747a6;
+}
+
+.lander-terms {
+  font-size: 16px;
+  color: #091e42;
+  margin-top: 20px;
+  line-height: 1.4;
+  width: 100%;
+}
+
+.lander-terms a {
+  color: #0052cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lander-video {
+  margin-top: 32px;
+  font-size: 16px;
+  color: #0052cc;
+  text-decoration: underline;
+  cursor: pointer;
+  width: 100%;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding-left: 160px;
+  margin-top: 32px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.section-1-title {
+  font-size: 36px;
+  margin-top: 8px;
+  color: #091e42;
+}
+
+.section-1-text {
+  font-size: 20px;
+  margin-top: 16px;
+  color: #091e42;
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  width: 50%;
 }
 
 .video video {
