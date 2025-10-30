@@ -64,23 +64,26 @@
           to-do, idea, or responsibility—no matter how small—finds its place,
           keeping you at the top of your game.
         </div>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel-status">hello</div>
         <div class="carousel">
           <div class="carousel-texts">
-            <div class="carousel-box active">
+            <div class="carousel-box active" id="1" onclick="showImage(1)">
               <div class="carousel-box-title">Inbox</div>
               <div class="carousel-box-text">
                 When it’s on your mind, it goes in your Inbox. Capture your
                 to-dos from anywhere, anytime.
               </div>
             </div>
-            <div class="carousel-box">
+            <div class="carousel-box" id="2" onclick="showImage(2)">
               <div class="carousel-box-title">Boards</div>
               <div class="carousel-box-text">
                 Your to-do list may be long, but it can be manageable! Keep tabs
                 on everything from "to-dos to tackle" to "mission accomplished!”
               </div>
             </div>
-            <div class="carousel-box">
+            <div class="carousel-box" id="3" onclick="showImage(3)">
               <div class="carousel-box-title">Planner</div>
               <div class="carousel-box-text">
                 Drag, drop, get it done. Snap your top tasks into your calendar
@@ -88,8 +91,28 @@
               </div>
             </div>
           </div>
+          <div class="carousel-image-container">
+            <div class="carousel-images">
+              <img
+                src="./assets/inbox-slider.webp"
+                alt="Inbox Image"
+                class="carousel-image active"
+              />
+              <img
+                src="./assets/board-slider.webp"
+                alt="Boards Image"
+                class="carousel-image"
+              />
+              <img
+                src="./assets/planner-slider.webp"
+                alt="Planner Image"
+                class="carousel-image"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </main>
   </body>
+  <script src="main.js"></script>
 </html>
